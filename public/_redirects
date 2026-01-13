@@ -1,0 +1,27 @@
+# Clean URL redirects for Render static hosting
+# These rewrite rules show clean URLs to users while serving .html files
+
+/2023%2F05%2F23%2F%D7%90%D7%95%D7%93%D7%95%D7%AA/  /2023/05/23/אודות/index.html  200
+/category%2F%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94/  /category/שירותי-החברה/index.html  200
+/2023%2F06%2F06%2F%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA/  /2023/06/06/המלצות/index.html  200
+/2023%2F05%2F27%2F%D7%A4%D7%92%D7%99%D7%A9%D7%AA-%D7%99%D7%A2%D7%95%D7%A5-%D7%95%D7%91%D7%93%D7%99%D7%A7%D7%AA-%D7%94%D7%99%D7%AA%D7%9B%D7%A0%D7%95%D7%AA/  /2023/05/27/פגישת-יעוץ-ובדיקת-היתכנות/index.html  200
+/2023%2F05%2F27%2F%D7%94%D7%9B%D7%A0%D7%94-%D7%A9%D7%9C-%D7%AA%D7%99%D7%A7-%D7%AA%D7%9B%D7%A0%D7%95%D7%9F-%D7%A9%D7%9C%D7%9D/  /2023/05/27/הכנה-של-תיק-תכנון-שלם/index.html  200
+/2023%2F05%2F27%2F%D7%A0%D7%99%D7%A6%D7%95%D7%9C-%D7%97%D7%9C%D7%9C-%D7%A2%D7%9C%D7%99%D7%99%D7%AA-%D7%94%D7%92%D7%92-%D7%9B%D7%95%D7%9C%D7%9C-%D7%94%D7%A8%D7%9E%D7%AA-%D7%94%D7%92%D7%92/  /2023/05/27/ניצול-חלל-עליית-הגג-כולל-הרמת-הגג/index.html  200
+/2023%2F05%2F27%2F%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%95%D7%93%D7%A8%D7%99%D7%A9%D7%95%D7%AA-%D7%9E%D7%94%D7%A0%D7%93%D7%A1-%D7%A7%D7%95%D7%A0%D7%A1%D7%98%D7%A8%D7%95%D7%A7%D7%A6%D7%99%D7%94/  /2023/05/27/אישור-ודרישות-מהנדס-קונסטרוקציה/index.html  200
+/2023%2F05%2F27%2F%D7%9B%D7%AA%D7%91-%D7%9B%D7%9E%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%9E%D7%A4%D7%A8%D7%98-%D7%98%D7%9B%D7%A0%D7%99/  /2023/05/27/כתב-כמויות-ומפרט-טכני/index.html  200
+/2023%2F05%2F27%2F%D7%A0%D7%99%D7%A6%D7%95%D7%9C-%D7%97%D7%9C%D7%9C-%D7%A7%D7%99%D7%99%D7%9D-%D7%A9%D7%9C-%D7%A2%D7%9C%D7%99%D7%99%D7%AA-%D7%94%D7%92%D7%92/  /2023/05/27/ניצול-חלל-קיים-של-עליית-הגג/index.html  200
+/2023%2F05%2F27%2F%D7%A8%D7%A6%D7%A4%D7%95%D7%AA-%D7%97%D7%9C%D7%95%D7%A0%D7%95%D7%AA-%D7%95%D7%9E%D7%93%D7%A8%D7%92%D7%95%D7%AA/  /2023/05/27/רצפות-חלונות-ומדרגות/index.html  200
+/2023%2F06%2F19%2F%D7%A1%D7%A8%D7%98%D7%95%D7%A0%D7%99%D7%9D/  /2023/06/19/סרטונים/index.html  200
+/privacy  /privacy.html  200
+/accessibility  /accessibility.html  200
+/terms  /terms.html  200
+
+# Legal pages - redirect old .html URLs to friendly URLs
+/privacy.html  /privacy  301
+/accessibility.html  /accessibility  301
+/terms.html  /terms  301
+
+/  /index.html  200
+
+# 404 fallback
+/*  /index.html  404
